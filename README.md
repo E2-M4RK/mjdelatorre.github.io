@@ -16,14 +16,3 @@ This repository contains:
 - Malalagyan din yan wait lang
 
 ---
-
-```js
-function showAlert(message, type = 'primary') {
-  const alert = document.createElement('div');
-  alert.className = `alert alert-${type} alert-dismissible fade show`;
-  alert.innerHTML = `
-    ${message}
-    <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
-  `;
-  document.body.appendChild(alert);
-}
